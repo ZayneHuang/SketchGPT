@@ -39,6 +39,11 @@
             font-weight: bold;
             margin: 0 2px;
         }
+        .author {
+            display: inline-block;
+            white-space: nowrap;
+            margin: 0 2px;
+        }
         .affiliation {
             color: #666;
             font-style: italic;
@@ -105,14 +110,24 @@
     <div class="header">
         <h1 class="title">SketchGPT: A Sketch-based Multimodal Interface for Application-Agnostic LLM Interaction</h1>
         <div class="authors">
-            Zeyuan Huang<sup>1,2</sup>, Cangjun Gao<sup>1,2</sup>, Yaxian Shan<sup>1,3</sup>, Haoxiang Hu<sup>1,2</sup>, Qingkun Li<sup>1</sup>, Xiaoming Deng<sup>1,2</sup>, Cuixia Ma<sup>1,2</sup>, Yu-Kun Lai<sup>4</sup>, Yong-Jin Liu<sup>5</sup>, Feng Tian<sup>1,2</sup>, Guozhong Dai<sup>1</sup>, Hongan Wang<sup>1,2</sup>
+            <span class="author">Zeyuan Huang<sup>1,2</sup></span>, 
+            <span class="author">Cangjun Gao<sup>1,2</sup></span>, 
+            <span class="author">Yaxian Shan<sup>1</sup></span>, 
+            <span class="author">Haoxiang Hu<sup>1,2</sup></span>, 
+            <span class="author">Qingkun Li<sup>1</sup></span>, 
+            <span class="author">Xiaoming Deng<sup>1,2</sup></span>, 
+            <span class="author">Cuixia Ma<sup>1,2</sup></span>, 
+            <span class="author">Yu-Kun Lai<sup>3</sup></span>, 
+            <span class="author">Yong-Jin Liu<sup>4</sup></span>, 
+            <span class="author">Feng Tian<sup>1,2</sup></span>, 
+            <span class="author">Guozhong Dai<sup>1</sup></span>, 
+            <span class="author">Hongan Wang<sup>1,2</sup></span>
         </div>
         <div class="affiliation">
             <span><sup>1</sup>Institute of Software, Chinese Academy of Sciences</span>
             <span><sup>2</sup>University of Chinese Academy of Sciences</span>
-            <span><sup>3</sup>University of Science and Technology Beijing</span>
-            <span><sup>4</sup>Cardiff University</span>
-            <span><sup>5</sup>Tsinghua University</span>
+            <span><sup>3</sup>Cardiff University</span>
+            <span><sup>4</sup>Tsinghua University</span>
         </div>
         <div class="links">
             <a href="#" class="button">Paper</a>
@@ -124,25 +139,18 @@
     <div class="abstract section">
         <h2 class="section-title">Abstract</h2>
         <p>
-            <!-- 摘要待补充 -->
-            Abstract to be added
+            Human interaction with large language models (LLMs) is typically confined to text or image interfaces. Sketches offer a powerful medium for articulating creative ideas and user intentions, yet their potential remains underexplored. We propose SketchGPT, a novel interaction paradigm that integrates sketch and speech input directly over the system interface, facilitating open-ended, context-aware communication with LLMs. By leveraging the complementary strengths of multimodal inputs, expressions are enriched with semantic scope while maintaining efficiency. Interpreting user intentions across diverse contexts and modalities remains a key challenge. To address this, we developed a prototype based on a multi-agent framework that infers user intentions within context and generates executable context-sensitive and toolkit-aware feedback. Using Chain-of-Thought techniques for temporal and semantic alignment, the system understands multimodal intentions and performs operations following human-in-the-loop confirmation to ensure reliability. User studies demonstrate that SketchGPT significantly outperforms unimodal manipulation approaches, offering more intuitive and effective means to interact with LLMs.
         </p>
     </div>
 
     <div class="section">
         <h2 class="section-title">Overview</h2>
-        <!-- 概述图片待补充 -->
-        <img src="assets/overview.png" alt="SketchGPT Overview" class="preview-image">
+        <img src="assets/teaser.webp" alt="SketchGPT Overview" class="preview-image" loading="lazy">
     </div>
 
     <div class="section">
-        <h2 class="section-title">Key Features</h2>
-        <ul>
-            <!-- 关键特性待补充 -->
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-        </ul>
+        <h2 class="section-title">Formative Case Examples</h2>
+        To be releaesd soon.
     </div>
 
     <div class="section">
